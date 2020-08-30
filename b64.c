@@ -8,7 +8,7 @@ int strlen(char *a);
 int main()
 {
     // General Variables
-    char data [] = "jadi";
+    char data [] = "string";
     int cont1 [] = {0,2,4,4,2,6,0};
     int cont2 [] = {0,252,3,240,15,196,63};
     int action_number = (2 * strlen(data));
