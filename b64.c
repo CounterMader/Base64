@@ -1,5 +1,5 @@
 //In The Name Of GOD
-//Wrote By ali esmaeily
+//Writen By Ali Esmaeily
 
 #include <stdio.h>
 
@@ -38,7 +38,7 @@ int main()
         if (m == 6)
             m = 1;
         else
-            m ++;
+            m++;
     }
 /*    //Debug Enviroment
     for (int l = 0;l < action_number; l++)
@@ -60,7 +60,7 @@ int main()
         else
         {
             mem1[memptr] = (mem[j] ^ mem[j + 1]);
-            memptr ++;
+            memptr++;
         }
     }
     // Data Printer
@@ -89,8 +89,8 @@ int strlen(char *a)
     int res = 0;
     while (*(a + i) != '\0')
     {
-        res ++;
-        i ++;
+        res++;
+        i++;
     }
     return res;
 }
